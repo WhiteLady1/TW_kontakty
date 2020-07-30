@@ -52,5 +52,11 @@ img{
 	}
 }
 @media(min-width:960px){
-	
+	.slecna{
+		flex-direction: column;
+		flex-basis: calc(90% / 4);
+	}
+	img{
+		
+	}
 }
