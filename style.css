@@ -12,8 +12,19 @@ body {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	align-items: center;
+	
 }
 .jarmila, .emilie, .klotilda, .lucinda{
-	border: 1px solid gray;
-	padding: 20px;
+	border: 1px solid rgb(160, 192, 207);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	width: 265px;
+	height: 275px;
+	justify-content: space-evenly;
+}
+img{
+	border-radius: 50%;
+	max-width: 100%;
 }
