@@ -46,14 +46,11 @@ img{
 		height: auto;
 
 	}
-	img{
-
+	.text{
+		padding: 10px;
+		text-align: left;
 	}
-	p{
-		flex: 1 1 45%;
-		
-	}
-	h2{
-		flex: 1 1 42%;
-	}
+}
+@media(min-width:960px){
+	
 }
