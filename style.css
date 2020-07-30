@@ -15,7 +15,7 @@ body {
 	align-items: center;
 	
 }
-.jarmila, .emilie, .klotilda, .lucinda{
+.slecna{
 	border: 1px solid rgb(160, 192, 207);
 	border-radius: 5px;
 	padding: 10px;
@@ -38,19 +38,22 @@ img{
 	.nadpis{
 		width: 100%;
 	}
-	.jarmila, .emilie, .klotilda, .lucinda{
+	.slecna{
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: row;
 		flex-basis: 45%;
+		width: auto;
+		height: auto;
 
 	}
 	img{
-		flex: 1 1 20%;
+
 	}
 	p{
-		flex: 1 1 0;
+		flex: 1 1 45%;
+		
 	}
 	h2{
-		flex: 1 1 0;
+		flex: 1 1 42%;
 	}
 }
