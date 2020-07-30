@@ -42,8 +42,8 @@ img{
 		display: flex;
 		flex-direction: row;
 		flex-basis: 45%;
-		width: auto;
-		height: auto;
+		width: 50%;
+		height: 160px;
 
 	}
 	.text{
@@ -55,8 +55,10 @@ img{
 	.slecna{
 		flex-direction: column;
 		flex-basis: calc(90% / 4);
+		width: auto;
+		height: auto;
 	}
 	img{
-		
+
 	}
 }
