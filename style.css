@@ -7,4 +7,13 @@ body {
 	font-size: 14px;
 }
 
-/* -----komentář----------gjhjghjg------------------------------------- */
+/* ---------------------------------------- */
+.celek{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.jarmila, .emilie, .klotilda, .lucinda{
+	border: 1px solid gray;
+	padding: 20px;
+}
